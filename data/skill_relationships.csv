@@ -1,0 +1,494 @@
+relationship_id,source_skill_id,source_skill,target_skill_id,target_skill,relationship_type,strength
+REL0001,SK169,Object-Oriented Programming,SK004,Java,prerequisite,1.0
+REL0002,SK005,JavaScript,SK006,TypeScript,prerequisite,1.0
+REL0003,SK004,Java,SK010,Scala,prerequisite,1.0
+REL0004,SK134,Linux,SK011,Bash,prerequisite,1.0
+REL0005,SK004,Java,SK013,Kotlin,prerequisite,1.0
+REL0006,SK169,Object-Oriented Programming,SK014,C#,prerequisite,1.0
+REL0007,SK018,Probability,SK017,Statistics,prerequisite,1.0
+REL0008,SK017,Statistics,SK021,Hypothesis Testing,prerequisite,1.0
+REL0009,SK021,Hypothesis Testing,SK022,A/B Testing,prerequisite,1.0
+REL0010,SK020,Calculus,SK023,Optimization,prerequisite,1.0
+REL0011,SK019,Linear Algebra,SK023,Optimization,prerequisite,1.0
+REL0012,SK017,Statistics,SK024,Time Series Analysis,prerequisite,1.0
+REL0013,SK018,Probability,SK025,Bayesian Statistics,prerequisite,1.0
+REL0014,SK001,Python,SK026,Pandas,prerequisite,1.0
+REL0015,SK001,Python,SK027,NumPy,prerequisite,1.0
+REL0016,SK017,Statistics,SK030,Exploratory Data Analysis,prerequisite,1.0
+REL0017,SK026,Pandas,SK030,Exploratory Data Analysis,prerequisite,1.0
+REL0018,SK026,Pandas,SK031,Data Wrangling,prerequisite,1.0
+REL0019,SK027,NumPy,SK032,SciPy,prerequisite,1.0
+REL0020,SK017,Statistics,SK033,Statsmodels,prerequisite,1.0
+REL0021,SK001,Python,SK033,Statsmodels,prerequisite,1.0
+REL0022,SK039,Data Visualization,SK034,Tableau,prerequisite,1.0
+REL0023,SK039,Data Visualization,SK035,Power BI,prerequisite,1.0
+REL0024,SK001,Python,SK036,Matplotlib,prerequisite,1.0
+REL0025,SK036,Matplotlib,SK037,Seaborn,prerequisite,1.0
+REL0026,SK001,Python,SK038,Plotly,prerequisite,1.0
+REL0027,SK003,SQL,SK040,Looker,prerequisite,1.0
+REL0028,SK005,JavaScript,SK041,D3.js,prerequisite,1.0
+REL0029,SK001,Python,SK042,Machine Learning,prerequisite,1.0
+REL0030,SK017,Statistics,SK042,Machine Learning,prerequisite,1.0
+REL0031,SK019,Linear Algebra,SK042,Machine Learning,prerequisite,1.0
+REL0032,SK001,Python,SK043,Scikit-learn,prerequisite,1.0
+REL0033,SK042,Machine Learning,SK043,Scikit-learn,prerequisite,1.0
+REL0034,SK042,Machine Learning,SK044,XGBoost,prerequisite,1.0
+REL0035,SK042,Machine Learning,SK045,LightGBM,prerequisite,1.0
+REL0036,SK026,Pandas,SK046,Feature Engineering,prerequisite,1.0
+REL0037,SK042,Machine Learning,SK046,Feature Engineering,prerequisite,1.0
+REL0038,SK042,Machine Learning,SK047,Model Evaluation,prerequisite,1.0
+REL0039,SK042,Machine Learning,SK048,Supervised Learning,prerequisite,1.0
+REL0040,SK042,Machine Learning,SK049,Unsupervised Learning,prerequisite,1.0
+REL0041,SK017,Statistics,SK050,Regression,prerequisite,1.0
+REL0042,SK042,Machine Learning,SK051,Classification,prerequisite,1.0
+REL0043,SK042,Machine Learning,SK052,Clustering,prerequisite,1.0
+REL0044,SK042,Machine Learning,SK053,Recommender Systems,prerequisite,1.0
+REL0045,SK042,Machine Learning,SK054,Reinforcement Learning,prerequisite,1.0
+REL0046,SK018,Probability,SK054,Reinforcement Learning,prerequisite,1.0
+REL0047,SK047,Model Evaluation,SK055,Hyperparameter Tuning,prerequisite,1.0
+REL0048,SK042,Machine Learning,SK056,Deep Learning,prerequisite,1.0
+REL0049,SK060,Neural Networks,SK056,Deep Learning,prerequisite,1.0
+REL0050,SK056,Deep Learning,SK057,TensorFlow,prerequisite,1.0
+REL0051,SK056,Deep Learning,SK058,PyTorch,prerequisite,1.0
+REL0052,SK056,Deep Learning,SK059,Keras,prerequisite,1.0
+REL0053,SK019,Linear Algebra,SK060,Neural Networks,prerequisite,1.0
+REL0054,SK020,Calculus,SK060,Neural Networks,prerequisite,1.0
+REL0055,SK042,Machine Learning,SK060,Neural Networks,prerequisite,1.0
+REL0056,SK060,Neural Networks,SK061,CNN,prerequisite,1.0
+REL0057,SK060,Neural Networks,SK062,RNN,prerequisite,1.0
+REL0058,SK060,Neural Networks,SK063,Transformers,prerequisite,1.0
+REL0059,SK056,Deep Learning,SK064,JAX,prerequisite,1.0
+REL0060,SK027,NumPy,SK064,JAX,prerequisite,1.0
+REL0061,SK042,Machine Learning,SK065,Natural Language Processing,prerequisite,1.0
+REL0062,SK001,Python,SK065,Natural Language Processing,prerequisite,1.0
+REL0063,SK001,Python,SK066,spaCy,prerequisite,1.0
+REL0064,SK065,Natural Language Processing,SK066,spaCy,prerequisite,1.0
+REL0065,SK001,Python,SK067,NLTK,prerequisite,1.0
+REL0066,SK063,Transformers,SK068,Hugging Face,prerequisite,1.0
+REL0067,SK058,PyTorch,SK068,Hugging Face,prerequisite,1.0
+REL0068,SK065,Natural Language Processing,SK069,Text Classification,prerequisite,1.0
+REL0069,SK065,Natural Language Processing,SK070,Named Entity Recognition,prerequisite,1.0
+REL0070,SK065,Natural Language Processing,SK071,Sentiment Analysis,prerequisite,1.0
+REL0071,SK065,Natural Language Processing,SK072,Word Embeddings,prerequisite,1.0
+REL0072,SK063,Transformers,SK073,BERT,prerequisite,1.0
+REL0073,SK065,Natural Language Processing,SK074,Tokenization,prerequisite,1.0
+REL0074,SK056,Deep Learning,SK075,Computer Vision,prerequisite,1.0
+REL0075,SK081,Image Processing,SK075,Computer Vision,prerequisite,1.0
+REL0076,SK001,Python,SK076,OpenCV,prerequisite,1.0
+REL0077,SK081,Image Processing,SK076,OpenCV,prerequisite,1.0
+REL0078,SK061,CNN,SK077,Image Classification,prerequisite,1.0
+REL0079,SK061,CNN,SK078,Object Detection,prerequisite,1.0
+REL0080,SK075,Computer Vision,SK078,Object Detection,prerequisite,1.0
+REL0081,SK061,CNN,SK079,Image Segmentation,prerequisite,1.0
+REL0082,SK075,Computer Vision,SK079,Image Segmentation,prerequisite,1.0
+REL0083,SK078,Object Detection,SK080,YOLO,prerequisite,1.0
+REL0084,SK027,NumPy,SK081,Image Processing,prerequisite,1.0
+REL0085,SK056,Deep Learning,SK082,Generative AI,prerequisite,1.0
+REL0086,SK063,Transformers,SK083,Large Language Models,prerequisite,1.0
+REL0087,SK083,Large Language Models,SK084,Prompt Engineering,prerequisite,1.0
+REL0088,SK001,Python,SK085,LangChain,prerequisite,1.0
+REL0089,SK083,Large Language Models,SK085,LangChain,prerequisite,1.0
+REL0090,SK091,Embeddings,SK086,Retrieval-Augmented Generation,prerequisite,1.0
+REL0091,SK087,Vector Databases,SK086,Retrieval-Augmented Generation,prerequisite,1.0
+REL0092,SK083,Large Language Models,SK086,Retrieval-Augmented Generation,prerequisite,1.0
+REL0093,SK091,Embeddings,SK087,Vector Databases,prerequisite,1.0
+REL0094,SK083,Large Language Models,SK088,Fine-tuning LLMs,prerequisite,1.0
+REL0095,SK058,PyTorch,SK088,Fine-tuning LLMs,prerequisite,1.0
+REL0096,SK001,Python,SK089,OpenAI API,prerequisite,1.0
+REL0097,SK154,REST APIs,SK089,OpenAI API,prerequisite,1.0
+REL0098,SK001,Python,SK090,LlamaIndex,prerequisite,1.0
+REL0099,SK083,Large Language Models,SK090,LlamaIndex,prerequisite,1.0
+REL0100,SK060,Neural Networks,SK091,Embeddings,prerequisite,1.0
+REL0101,SK056,Deep Learning,SK092,Diffusion Models,prerequisite,1.0
+REL0102,SK083,Large Language Models,SK093,AI Agents,prerequisite,1.0
+REL0103,SK084,Prompt Engineering,SK093,AI Agents,prerequisite,1.0
+REL0104,SK083,Large Language Models,SK094,LLM Evaluation,prerequisite,1.0
+REL0105,SK047,Model Evaluation,SK094,LLM Evaluation,prerequisite,1.0
+REL0106,SK003,SQL,SK095,Data Engineering,prerequisite,1.0
+REL0107,SK001,Python,SK095,Data Engineering,prerequisite,1.0
+REL0108,SK003,SQL,SK096,ETL,prerequisite,1.0
+REL0109,SK001,Python,SK097,Apache Spark,prerequisite,1.0
+REL0110,SK003,SQL,SK097,Apache Spark,prerequisite,1.0
+REL0111,SK097,Apache Spark,SK098,PySpark,prerequisite,1.0
+REL0112,SK001,Python,SK098,PySpark,prerequisite,1.0
+REL0113,SK108,Data Pipelines,SK099,Apache Kafka,prerequisite,1.0
+REL0114,SK001,Python,SK100,Apache Airflow,prerequisite,1.0
+REL0115,SK108,Data Pipelines,SK100,Apache Airflow,prerequisite,1.0
+REL0116,SK003,SQL,SK101,dbt,prerequisite,1.0
+REL0117,SK104,Data Modeling,SK101,dbt,prerequisite,1.0
+REL0118,SK003,SQL,SK102,Data Warehousing,prerequisite,1.0
+REL0119,SK104,Data Modeling,SK102,Data Warehousing,prerequisite,1.0
+REL0120,SK134,Linux,SK103,Hadoop,prerequisite,1.0
+REL0121,SK003,SQL,SK104,Data Modeling,prerequisite,1.0
+REL0122,SK003,SQL,SK105,Snowflake,prerequisite,1.0
+REL0123,SK102,Data Warehousing,SK105,Snowflake,prerequisite,1.0
+REL0124,SK097,Apache Spark,SK106,Databricks,prerequisite,1.0
+REL0125,SK003,SQL,SK107,BigQuery,prerequisite,1.0
+REL0126,SK102,Data Warehousing,SK107,BigQuery,prerequisite,1.0
+REL0127,SK001,Python,SK108,Data Pipelines,prerequisite,1.0
+REL0128,SK003,SQL,SK108,Data Pipelines,prerequisite,1.0
+REL0129,SK099,Apache Kafka,SK109,Apache Flink,prerequisite,1.0
+REL0130,SK003,SQL,SK110,PostgreSQL,prerequisite,1.0
+REL0131,SK003,SQL,SK111,MySQL,prerequisite,1.0
+REL0132,SK115,NoSQL,SK112,MongoDB,prerequisite,1.0
+REL0133,SK003,SQL,SK114,SQLite,prerequisite,1.0
+REL0134,SK115,NoSQL,SK116,Elasticsearch,prerequisite,1.0
+REL0135,SK115,NoSQL,SK117,Cassandra,prerequisite,1.0
+REL0136,SK003,SQL,SK118,Database Design,prerequisite,1.0
+REL0137,SK126,Cloud Computing,SK120,AWS,prerequisite,1.0
+REL0138,SK126,Cloud Computing,SK121,Azure,prerequisite,1.0
+REL0139,SK126,Cloud Computing,SK122,Google Cloud Platform,prerequisite,1.0
+REL0140,SK120,AWS,SK123,AWS SageMaker,prerequisite,1.0
+REL0141,SK042,Machine Learning,SK123,AWS SageMaker,prerequisite,1.0
+REL0142,SK120,AWS,SK124,AWS Lambda,prerequisite,1.0
+REL0143,SK120,AWS,SK125,Amazon S3,prerequisite,1.0
+REL0144,SK134,Linux,SK126,Cloud Computing,prerequisite,1.0
+REL0145,SK144,Networking,SK126,Cloud Computing,prerequisite,1.0
+REL0146,SK126,Cloud Computing,SK127,Serverless,prerequisite,1.0
+REL0147,SK121,Azure,SK128,Azure ML,prerequisite,1.0
+REL0148,SK042,Machine Learning,SK128,Azure ML,prerequisite,1.0
+REL0149,SK122,Google Cloud Platform,SK129,Vertex AI,prerequisite,1.0
+REL0150,SK042,Machine Learning,SK129,Vertex AI,prerequisite,1.0
+REL0151,SK134,Linux,SK130,Docker,prerequisite,1.0
+REL0152,SK130,Docker,SK131,Kubernetes,prerequisite,1.0
+REL0153,SK133,Git,SK132,CI/CD,prerequisite,1.0
+REL0154,SK126,Cloud Computing,SK135,Terraform,prerequisite,1.0
+REL0155,SK142,Infrastructure as Code,SK135,Terraform,prerequisite,1.0
+REL0156,SK132,CI/CD,SK136,Jenkins,prerequisite,1.0
+REL0157,SK132,CI/CD,SK137,GitHub Actions,prerequisite,1.0
+REL0158,SK133,Git,SK137,GitHub Actions,prerequisite,1.0
+REL0159,SK134,Linux,SK138,Ansible,prerequisite,1.0
+REL0160,SK143,Monitoring,SK139,Prometheus,prerequisite,1.0
+REL0161,SK143,Monitoring,SK140,Grafana,prerequisite,1.0
+REL0162,SK131,Kubernetes,SK141,Helm,prerequisite,1.0
+REL0163,SK126,Cloud Computing,SK142,Infrastructure as Code,prerequisite,1.0
+REL0164,SK134,Linux,SK143,Monitoring,prerequisite,1.0
+REL0165,SK042,Machine Learning,SK145,MLOps,prerequisite,1.0
+REL0166,SK130,Docker,SK145,MLOps,prerequisite,1.0
+REL0167,SK132,CI/CD,SK145,MLOps,prerequisite,1.0
+REL0168,SK042,Machine Learning,SK146,MLflow,prerequisite,1.0
+REL0169,SK001,Python,SK146,MLflow,prerequisite,1.0
+REL0170,SK042,Machine Learning,SK147,Model Deployment,prerequisite,1.0
+REL0171,SK154,REST APIs,SK147,Model Deployment,prerequisite,1.0
+REL0172,SK130,Docker,SK147,Model Deployment,prerequisite,1.0
+REL0173,SK147,Model Deployment,SK148,Model Monitoring,prerequisite,1.0
+REL0174,SK143,Monitoring,SK148,Model Monitoring,prerequisite,1.0
+REL0175,SK131,Kubernetes,SK149,Kubeflow,prerequisite,1.0
+REL0176,SK145,MLOps,SK149,Kubeflow,prerequisite,1.0
+REL0177,SK046,Feature Engineering,SK150,Feature Store,prerequisite,1.0
+REL0178,SK108,Data Pipelines,SK150,Feature Store,prerequisite,1.0
+REL0179,SK133,Git,SK151,DVC,prerequisite,1.0
+REL0180,SK147,Model Deployment,SK152,Model Serving,prerequisite,1.0
+REL0181,SK042,Machine Learning,SK153,Experiment Tracking,prerequisite,1.0
+REL0182,SK155,HTTP Basics,SK154,REST APIs,prerequisite,1.0
+REL0183,SK001,Python,SK156,FastAPI,prerequisite,1.0
+REL0184,SK154,REST APIs,SK156,FastAPI,prerequisite,1.0
+REL0185,SK001,Python,SK157,Django,prerequisite,1.0
+REL0186,SK154,REST APIs,SK157,Django,prerequisite,1.0
+REL0187,SK001,Python,SK158,Flask,prerequisite,1.0
+REL0188,SK154,REST APIs,SK158,Flask,prerequisite,1.0
+REL0189,SK005,JavaScript,SK159,Node.js,prerequisite,1.0
+REL0190,SK159,Node.js,SK160,Express.js,prerequisite,1.0
+REL0191,SK004,Java,SK161,Spring Boot,prerequisite,1.0
+REL0192,SK154,REST APIs,SK161,Spring Boot,prerequisite,1.0
+REL0193,SK154,REST APIs,SK162,GraphQL,prerequisite,1.0
+REL0194,SK154,REST APIs,SK163,Microservices,prerequisite,1.0
+REL0195,SK130,Docker,SK163,Microservices,prerequisite,1.0
+REL0196,SK170,Data Structures,SK164,System Design,prerequisite,1.0
+REL0197,SK118,Database Design,SK164,System Design,prerequisite,1.0
+REL0198,SK144,Networking,SK164,System Design,prerequisite,1.0
+REL0199,SK154,REST APIs,SK165,Authentication,prerequisite,1.0
+REL0200,SK154,REST APIs,SK166,API Design,prerequisite,1.0
+REL0201,SK154,REST APIs,SK167,gRPC,prerequisite,1.0
+REL0202,SK170,Data Structures,SK171,Algorithms,prerequisite,1.0
+REL0203,SK173,HTML,SK174,CSS,prerequisite,1.0
+REL0204,SK005,JavaScript,SK175,React,prerequisite,1.0
+REL0205,SK173,HTML,SK175,React,prerequisite,1.0
+REL0206,SK174,CSS,SK175,React,prerequisite,1.0
+REL0207,SK005,JavaScript,SK176,Vue.js,prerequisite,1.0
+REL0208,SK006,TypeScript,SK177,Angular,prerequisite,1.0
+REL0209,SK175,React,SK178,Next.js,prerequisite,1.0
+REL0210,SK174,CSS,SK179,Tailwind CSS,prerequisite,1.0
+REL0211,SK175,React,SK180,Redux,prerequisite,1.0
+REL0212,SK174,CSS,SK181,Responsive Design,prerequisite,1.0
+REL0213,SK005,JavaScript,SK182,Webpack,prerequisite,1.0
+REL0214,SK144,Networking,SK183,Cybersecurity,prerequisite,1.0
+REL0215,SK144,Networking,SK184,Network Security,prerequisite,1.0
+REL0216,SK184,Network Security,SK185,Penetration Testing,prerequisite,1.0
+REL0217,SK134,Linux,SK185,Penetration Testing,prerequisite,1.0
+REL0218,SK183,Cybersecurity,SK186,SIEM,prerequisite,1.0
+REL0219,SK183,Cybersecurity,SK187,Incident Response,prerequisite,1.0
+REL0220,SK183,Cybersecurity,SK188,Vulnerability Assessment,prerequisite,1.0
+REL0221,SK183,Cybersecurity,SK189,Threat Intelligence,prerequisite,1.0
+REL0222,SK144,Networking,SK190,Wireshark,prerequisite,1.0
+REL0223,SK144,Networking,SK191,Firewalls,prerequisite,1.0
+REL0224,SK183,Cybersecurity,SK193,Security Compliance,prerequisite,1.0
+REL0225,SK183,Cybersecurity,SK194,Identity and Access Management,prerequisite,1.0
+REL0226,SK186,SIEM,SK195,Splunk,prerequisite,1.0
+REL0227,SK185,Penetration Testing,SK196,Ethical Hacking,prerequisite,1.0
+REL0228,SK183,Cybersecurity,SK197,OWASP,prerequisite,1.0
+REL0229,SK155,HTTP Basics,SK197,OWASP,prerequisite,1.0
+REL0230,SK210,Communication,SK200,Stakeholder Management,prerequisite,1.0
+REL0231,SK201,Agile,SK202,Scrum,prerequisite,1.0
+REL0232,SK198,Business Analysis,SK204,Process Modeling,prerequisite,1.0
+REL0233,SK003,SQL,SK205,Business Intelligence,prerequisite,1.0
+REL0234,SK039,Data Visualization,SK205,Business Intelligence,prerequisite,1.0
+REL0235,SK028,Excel,SK206,KPI Reporting,prerequisite,1.0
+REL0236,SK200,Stakeholder Management,SK207,Product Management,prerequisite,1.0
+REL0237,SK039,Data Visualization,SK208,Data Storytelling,prerequisite,1.0
+REL0238,SK210,Communication,SK216,Presentation Skills,prerequisite,1.0
+REL0239,SK001,Python,SK002,R,related,0.7
+REL0240,SK001,Python,SK010,Scala,related,0.7
+REL0241,SK002,R,SK017,Statistics,related,0.5
+REL0242,SK110,PostgreSQL,SK003,SQL,related,0.5
+REL0243,SK111,MySQL,SK003,SQL,related,0.5
+REL0244,SK004,Java,SK013,Kotlin,related,0.7
+REL0245,SK004,Java,SK010,Scala,related,0.7
+REL0246,SK005,JavaScript,SK006,TypeScript,related,0.7
+REL0247,SK005,JavaScript,SK159,Node.js,related,0.5
+REL0248,SK007,Go,SK012,Rust,related,0.7
+REL0249,SK007,Go,SK004,Java,related,0.7
+REL0250,SK009,C,SK008,C++,related,0.7
+REL0251,SK008,C++,SK012,Rust,related,0.7
+REL0252,SK097,Apache Spark,SK010,Scala,related,0.5
+REL0253,SK011,Bash,SK134,Linux,related,0.5
+REL0254,SK014,C#,SK004,Java,related,0.7
+REL0255,SK005,JavaScript,SK015,PHP,related,0.7
+REL0256,SK001,Python,SK016,Ruby,related,0.7
+REL0257,SK018,Probability,SK017,Statistics,related,0.7
+REL0258,SK021,Hypothesis Testing,SK017,Statistics,related,0.7
+REL0259,SK025,Bayesian Statistics,SK018,Probability,related,0.7
+REL0260,SK020,Calculus,SK019,Linear Algebra,related,0.7
+REL0261,SK020,Calculus,SK023,Optimization,related,0.7
+REL0262,SK022,A/B Testing,SK021,Hypothesis Testing,related,0.7
+REL0263,SK050,Regression,SK024,Time Series Analysis,related,0.5
+REL0264,SK027,NumPy,SK026,Pandas,related,0.7
+REL0265,SK031,Data Wrangling,SK026,Pandas,related,0.7
+REL0266,SK027,NumPy,SK032,SciPy,related,0.7
+REL0267,SK028,Excel,SK035,Power BI,related,0.5
+REL0268,SK029,Data Cleaning,SK031,Data Wrangling,related,0.7
+REL0269,SK039,Data Visualization,SK030,Exploratory Data Analysis,related,0.5
+REL0270,SK032,SciPy,SK033,Statsmodels,related,0.7
+REL0271,SK035,Power BI,SK034,Tableau,related,0.7
+REL0272,SK040,Looker,SK034,Tableau,related,0.7
+REL0273,SK036,Matplotlib,SK037,Seaborn,related,0.7
+REL0274,SK036,Matplotlib,SK038,Plotly,related,0.7
+REL0275,SK039,Data Visualization,SK034,Tableau,related,0.7
+REL0276,SK039,Data Visualization,SK035,Power BI,related,0.7
+REL0277,SK208,Data Storytelling,SK039,Data Visualization,related,0.5
+REL0278,SK040,Looker,SK035,Power BI,related,0.7
+REL0279,SK041,D3.js,SK039,Data Visualization,related,0.7
+REL0280,SK056,Deep Learning,SK042,Machine Learning,related,0.5
+REL0281,SK042,Machine Learning,SK043,Scikit-learn,related,0.7
+REL0282,SK043,Scikit-learn,SK044,XGBoost,related,0.7
+REL0283,SK026,Pandas,SK043,Scikit-learn,related,0.5
+REL0284,SK045,LightGBM,SK044,XGBoost,related,0.7
+REL0285,SK031,Data Wrangling,SK046,Feature Engineering,related,0.5
+REL0286,SK055,Hyperparameter Tuning,SK047,Model Evaluation,related,0.7
+REL0287,SK051,Classification,SK048,Supervised Learning,related,0.7
+REL0288,SK050,Regression,SK048,Supervised Learning,related,0.7
+REL0289,SK052,Clustering,SK049,Unsupervised Learning,related,0.7
+REL0290,SK051,Classification,SK050,Regression,related,0.7
+REL0291,SK042,Machine Learning,SK053,Recommender Systems,related,0.7
+REL0292,SK056,Deep Learning,SK054,Reinforcement Learning,related,0.5
+REL0293,SK056,Deep Learning,SK058,PyTorch,related,0.7
+REL0294,SK056,Deep Learning,SK057,TensorFlow,related,0.7
+REL0295,SK059,Keras,SK057,TensorFlow,related,0.7
+REL0296,SK058,PyTorch,SK057,TensorFlow,related,0.7
+REL0297,SK056,Deep Learning,SK060,Neural Networks,related,0.7
+REL0298,SK061,CNN,SK075,Computer Vision,related,0.5
+REL0299,SK062,RNN,SK063,Transformers,related,0.7
+REL0300,SK073,BERT,SK063,Transformers,related,0.5
+REL0301,SK083,Large Language Models,SK063,Transformers,related,0.5
+REL0302,SK064,JAX,SK058,PyTorch,related,0.7
+REL0303,SK083,Large Language Models,SK065,Natural Language Processing,related,0.5
+REL0304,SK065,Natural Language Processing,SK066,spaCy,related,0.7
+REL0305,SK067,NLTK,SK066,spaCy,related,0.7
+REL0306,SK068,Hugging Face,SK063,Transformers,related,0.5
+REL0307,SK071,Sentiment Analysis,SK069,Text Classification,related,0.7
+REL0308,SK070,Named Entity Recognition,SK066,spaCy,related,0.7
+REL0309,SK091,Embeddings,SK072,Word Embeddings,related,0.5
+REL0310,SK073,BERT,SK068,Hugging Face,related,0.7
+REL0311,SK074,Tokenization,SK063,Transformers,related,0.5
+REL0312,SK075,Computer Vision,SK076,OpenCV,related,0.7
+REL0313,SK081,Image Processing,SK076,OpenCV,related,0.7
+REL0314,SK077,Image Classification,SK078,Object Detection,related,0.7
+REL0315,SK078,Object Detection,SK080,YOLO,related,0.7
+REL0316,SK079,Image Segmentation,SK078,Object Detection,related,0.7
+REL0317,SK082,Generative AI,SK083,Large Language Models,related,0.7
+REL0318,SK092,Diffusion Models,SK082,Generative AI,related,0.7
+REL0319,SK083,Large Language Models,SK084,Prompt Engineering,related,0.7
+REL0320,SK085,LangChain,SK090,LlamaIndex,related,0.7
+REL0321,SK085,LangChain,SK086,Retrieval-Augmented Generation,related,0.7
+REL0322,SK090,LlamaIndex,SK086,Retrieval-Augmented Generation,related,0.7
+REL0323,SK086,Retrieval-Augmented Generation,SK087,Vector Databases,related,0.7
+REL0324,SK088,Fine-tuning LLMs,SK068,Hugging Face,related,0.5
+REL0325,SK083,Large Language Models,SK089,OpenAI API,related,0.7
+REL0326,SK091,Embeddings,SK087,Vector Databases,related,0.7
+REL0327,SK093,AI Agents,SK085,LangChain,related,0.7
+REL0328,SK094,LLM Evaluation,SK084,Prompt Engineering,related,0.7
+REL0329,SK095,Data Engineering,SK096,ETL,related,0.7
+REL0330,SK095,Data Engineering,SK108,Data Pipelines,related,0.7
+REL0331,SK108,Data Pipelines,SK096,ETL,related,0.7
+REL0332,SK102,Data Warehousing,SK096,ETL,related,0.7
+REL0333,SK097,Apache Spark,SK098,PySpark,related,0.7
+REL0334,SK097,Apache Spark,SK103,Hadoop,related,0.7
+REL0335,SK109,Apache Flink,SK099,Apache Kafka,related,0.7
+REL0336,SK099,Apache Kafka,SK172,Message Queues,related,0.5
+REL0337,SK100,Apache Airflow,SK101,dbt,related,0.7
+REL0338,SK105,Snowflake,SK101,dbt,related,0.7
+REL0339,SK102,Data Warehousing,SK105,Snowflake,related,0.7
+REL0340,SK107,BigQuery,SK102,Data Warehousing,related,0.7
+REL0341,SK104,Data Modeling,SK118,Database Design,related,0.5
+REL0342,SK107,BigQuery,SK105,Snowflake,related,0.7
+REL0343,SK106,Databricks,SK105,Snowflake,related,0.7
+REL0344,SK100,Apache Airflow,SK108,Data Pipelines,related,0.7
+REL0345,SK111,MySQL,SK110,PostgreSQL,related,0.7
+REL0346,SK112,MongoDB,SK115,NoSQL,related,0.7
+REL0347,SK119,Caching,SK113,Redis,related,0.7
+REL0348,SK110,PostgreSQL,SK114,SQLite,related,0.7
+REL0349,SK117,Cassandra,SK115,NoSQL,related,0.7
+REL0350,SK116,Elasticsearch,SK195,Splunk,related,0.5
+REL0351,SK120,AWS,SK121,Azure,related,0.7
+REL0352,SK120,AWS,SK122,Google Cloud Platform,related,0.7
+REL0353,SK123,AWS SageMaker,SK129,Vertex AI,related,0.7
+REL0354,SK123,AWS SageMaker,SK128,Azure ML,related,0.7
+REL0355,SK124,AWS Lambda,SK127,Serverless,related,0.7
+REL0356,SK120,AWS,SK125,Amazon S3,related,0.7
+REL0357,SK120,AWS,SK126,Cloud Computing,related,0.7
+REL0358,SK121,Azure,SK126,Cloud Computing,related,0.7
+REL0359,SK130,Docker,SK131,Kubernetes,related,0.7
+REL0360,SK141,Helm,SK131,Kubernetes,related,0.7
+REL0361,SK132,CI/CD,SK137,GitHub Actions,related,0.7
+REL0362,SK132,CI/CD,SK136,Jenkins,related,0.7
+REL0363,SK132,CI/CD,SK133,Git,related,0.7
+REL0364,SK138,Ansible,SK135,Terraform,related,0.7
+REL0365,SK137,GitHub Actions,SK136,Jenkins,related,0.7
+REL0366,SK140,Grafana,SK139,Prometheus,related,0.7
+REL0367,SK142,Infrastructure as Code,SK135,Terraform,related,0.7
+REL0368,SK143,Monitoring,SK139,Prometheus,related,0.7
+REL0369,SK140,Grafana,SK143,Monitoring,related,0.7
+REL0370,SK184,Network Security,SK144,Networking,related,0.5
+REL0371,SK145,MLOps,SK147,Model Deployment,related,0.7
+REL0372,SK153,Experiment Tracking,SK146,MLflow,related,0.7
+REL0373,SK147,Model Deployment,SK152,Model Serving,related,0.7
+REL0374,SK148,Model Monitoring,SK143,Monitoring,related,0.5
+REL0375,SK149,Kubeflow,SK146,MLflow,related,0.7
+REL0376,SK150,Feature Store,SK145,MLOps,related,0.7
+REL0377,SK151,DVC,SK146,MLflow,related,0.7
+REL0378,SK166,API Design,SK154,REST APIs,related,0.7
+REL0379,SK162,GraphQL,SK154,REST APIs,related,0.7
+REL0380,SK155,HTTP Basics,SK154,REST APIs,related,0.7
+REL0381,SK155,HTTP Basics,SK144,Networking,related,0.5
+REL0382,SK156,FastAPI,SK158,Flask,related,0.7
+REL0383,SK157,Django,SK156,FastAPI,related,0.7
+REL0384,SK157,Django,SK158,Flask,related,0.7
+REL0385,SK160,Express.js,SK159,Node.js,related,0.7
+REL0386,SK004,Java,SK161,Spring Boot,related,0.5
+REL0387,SK163,Microservices,SK164,System Design,related,0.7
+REL0388,SK165,Authentication,SK194,Identity and Access Management,related,0.5
+REL0389,SK163,Microservices,SK167,gRPC,related,0.7
+REL0390,SK132,CI/CD,SK168,Unit Testing,related,0.5
+REL0391,SK170,Data Structures,SK169,Object-Oriented Programming,related,0.7
+REL0392,SK171,Algorithms,SK170,Data Structures,related,0.7
+REL0393,SK174,CSS,SK173,HTML,related,0.7
+REL0394,SK174,CSS,SK179,Tailwind CSS,related,0.7
+REL0395,SK175,React,SK176,Vue.js,related,0.7
+REL0396,SK178,Next.js,SK175,React,related,0.7
+REL0397,SK177,Angular,SK175,React,related,0.7
+REL0398,SK175,React,SK180,Redux,related,0.7
+REL0399,SK174,CSS,SK181,Responsive Design,related,0.7
+REL0400,SK005,JavaScript,SK182,Webpack,related,0.5
+REL0401,SK183,Cybersecurity,SK184,Network Security,related,0.7
+REL0402,SK191,Firewalls,SK184,Network Security,related,0.7
+REL0403,SK196,Ethical Hacking,SK185,Penetration Testing,related,0.7
+REL0404,SK186,SIEM,SK195,Splunk,related,0.7
+REL0405,SK187,Incident Response,SK186,SIEM,related,0.7
+REL0406,SK185,Penetration Testing,SK188,Vulnerability Assessment,related,0.7
+REL0407,SK187,Incident Response,SK189,Threat Intelligence,related,0.7
+REL0408,SK184,Network Security,SK190,Wireshark,related,0.7
+REL0409,SK192,Cryptography,SK183,Cybersecurity,related,0.7
+REL0410,SK183,Cybersecurity,SK193,Security Compliance,related,0.7
+REL0411,SK197,OWASP,SK185,Penetration Testing,related,0.7
+REL0412,SK198,Business Analysis,SK199,Requirements Gathering,related,0.7
+REL0413,SK210,Communication,SK200,Stakeholder Management,related,0.5
+REL0414,SK201,Agile,SK202,Scrum,related,0.7
+REL0415,SK201,Agile,SK203,JIRA,related,0.7
+REL0416,SK204,Process Modeling,SK209,UML,related,0.7
+REL0417,SK205,Business Intelligence,SK035,Power BI,related,0.5
+REL0418,SK205,Business Intelligence,SK034,Tableau,related,0.5
+REL0419,SK205,Business Intelligence,SK206,KPI Reporting,related,0.7
+REL0420,SK201,Agile,SK207,Product Management,related,0.7
+REL0421,SK208,Data Storytelling,SK216,Presentation Skills,related,0.5
+REL0422,SK210,Communication,SK216,Presentation Skills,related,0.7
+REL0423,SK217,Collaboration,SK211,Teamwork,related,0.7
+REL0424,SK212,Leadership,SK219,Mentoring,related,0.7
+REL0425,SK214,Critical Thinking,SK213,Problem Solving,related,0.7
+REL0426,SK218,Adaptability,SK215,Time Management,related,0.7
+REL0427,SK098,PySpark,SK097,Apache Spark,specialization,0.8
+REL0428,SK106,Databricks,SK097,Apache Spark,specialization,0.8
+REL0429,SK043,Scikit-learn,SK042,Machine Learning,specialization,0.8
+REL0430,SK044,XGBoost,SK048,Supervised Learning,specialization,0.8
+REL0431,SK045,LightGBM,SK048,Supervised Learning,specialization,0.8
+REL0432,SK057,TensorFlow,SK056,Deep Learning,specialization,0.8
+REL0433,SK058,PyTorch,SK056,Deep Learning,specialization,0.8
+REL0434,SK059,Keras,SK056,Deep Learning,specialization,0.8
+REL0435,SK064,JAX,SK056,Deep Learning,specialization,0.8
+REL0436,SK066,spaCy,SK065,Natural Language Processing,specialization,0.8
+REL0437,SK067,NLTK,SK065,Natural Language Processing,specialization,0.8
+REL0438,SK073,BERT,SK063,Transformers,specialization,0.8
+REL0439,SK068,Hugging Face,SK065,Natural Language Processing,specialization,0.8
+REL0440,SK034,Tableau,SK039,Data Visualization,specialization,0.8
+REL0441,SK035,Power BI,SK039,Data Visualization,specialization,0.8
+REL0442,SK040,Looker,SK039,Data Visualization,specialization,0.8
+REL0443,SK036,Matplotlib,SK039,Data Visualization,specialization,0.8
+REL0444,SK038,Plotly,SK039,Data Visualization,specialization,0.8
+REL0445,SK110,PostgreSQL,SK003,SQL,specialization,0.8
+REL0446,SK111,MySQL,SK003,SQL,specialization,0.8
+REL0447,SK114,SQLite,SK003,SQL,specialization,0.8
+REL0448,SK112,MongoDB,SK115,NoSQL,specialization,0.8
+REL0449,SK117,Cassandra,SK115,NoSQL,specialization,0.8
+REL0450,SK113,Redis,SK115,NoSQL,specialization,0.8
+REL0451,SK120,AWS,SK126,Cloud Computing,specialization,0.8
+REL0452,SK121,Azure,SK126,Cloud Computing,specialization,0.8
+REL0453,SK122,Google Cloud Platform,SK126,Cloud Computing,specialization,0.8
+REL0454,SK135,Terraform,SK142,Infrastructure as Code,specialization,0.8
+REL0455,SK137,GitHub Actions,SK132,CI/CD,specialization,0.8
+REL0456,SK136,Jenkins,SK132,CI/CD,specialization,0.8
+REL0457,SK139,Prometheus,SK143,Monitoring,specialization,0.8
+REL0458,SK140,Grafana,SK143,Monitoring,specialization,0.8
+REL0459,SK195,Splunk,SK186,SIEM,specialization,0.8
+REL0460,SK156,FastAPI,SK154,REST APIs,specialization,0.8
+REL0461,SK158,Flask,SK154,REST APIs,specialization,0.8
+REL0462,SK157,Django,SK154,REST APIs,specialization,0.8
+REL0463,SK161,Spring Boot,SK154,REST APIs,specialization,0.8
+REL0464,SK160,Express.js,SK159,Node.js,specialization,0.8
+REL0465,SK178,Next.js,SK175,React,specialization,0.8
+REL0466,SK080,YOLO,SK078,Object Detection,specialization,0.8
+REL0467,SK076,OpenCV,SK075,Computer Vision,specialization,0.8
+REL0468,SK085,LangChain,SK083,Large Language Models,specialization,0.8
+REL0469,SK090,LlamaIndex,SK086,Retrieval-Augmented Generation,specialization,0.8
+REL0470,SK105,Snowflake,SK102,Data Warehousing,specialization,0.8
+REL0471,SK107,BigQuery,SK102,Data Warehousing,specialization,0.8
+REL0472,SK101,dbt,SK096,ETL,specialization,0.8
+REL0473,SK100,Apache Airflow,SK108,Data Pipelines,specialization,0.8
+REL0474,SK099,Apache Kafka,SK108,Data Pipelines,specialization,0.8
+REL0475,SK146,MLflow,SK145,MLOps,specialization,0.8
+REL0476,SK149,Kubeflow,SK145,MLOps,specialization,0.8
+REL0477,SK202,Scrum,SK201,Agile,specialization,0.8
+REL0478,SK123,AWS SageMaker,SK145,MLOps,specialization,0.8
+REL0479,SK129,Vertex AI,SK145,MLOps,specialization,0.8
+REL0480,SK128,Azure ML,SK145,MLOps,specialization,0.8
+REL0481,SK037,Seaborn,SK039,Data Visualization,specialization,0.8
+REL0482,SK061,CNN,SK056,Deep Learning,specialization,0.8
+REL0483,SK062,RNN,SK056,Deep Learning,specialization,0.8
+REL0484,SK088,Fine-tuning LLMs,SK083,Large Language Models,specialization,0.8
+REL0485,SK089,OpenAI API,SK083,Large Language Models,specialization,0.8
+REL0486,SK190,Wireshark,SK184,Network Security,specialization,0.8
+REL0487,SK196,Ethical Hacking,SK183,Cybersecurity,specialization,0.8
+REL0488,SK185,Penetration Testing,SK183,Cybersecurity,specialization,0.8
+REL0489,SK141,Helm,SK131,Kubernetes,specialization,0.8
+REL0490,SK026,Pandas,SK031,Data Wrangling,specialization,0.8
+REL0491,SK033,Statsmodels,SK017,Statistics,specialization,0.8
+REL0492,SK006,TypeScript,SK005,JavaScript,specialization,0.8
+REL0493,SK176,Vue.js,SK005,JavaScript,specialization,0.8

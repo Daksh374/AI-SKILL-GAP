@@ -1,0 +1,3156 @@
+{
+  "synthetic": true,
+  "description": "Curated skills taxonomy used for skill normalization, categorisation and learning-time estimates. Not labor-market data.",
+  "categories": [
+    "Programming Languages",
+    "Mathematics & Statistics",
+    "Data Analysis",
+    "Data Visualization",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "Generative AI",
+    "Data Engineering",
+    "Databases",
+    "Cloud",
+    "DevOps",
+    "MLOps",
+    "Backend Development",
+    "Frontend Development",
+    "Cybersecurity",
+    "Business & Product",
+    "Soft Skills"
+  ],
+  "difficulty_scale": {
+    "1": "foundational (days to ~2 weeks)",
+    "2": "intermediate (several weeks)",
+    "3": "advanced (1-3 months)"
+  },
+  "importance_scale": {
+    "1": "niche",
+    "2": "commonly used",
+    "3": "foundational / broadly used"
+  },
+  "skills": [
+    {
+      "skill_id": "SK001",
+      "name": "Python",
+      "category": "Programming Languages",
+      "aliases": [
+        "python3",
+        "python 3"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK002",
+      "name": "R",
+      "category": "Programming Languages",
+      "aliases": [
+        "R programming",
+        "R language",
+        "RStudio"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": true
+    },
+    {
+      "skill_id": "SK003",
+      "name": "SQL",
+      "category": "Programming Languages",
+      "aliases": [
+        "structured query language",
+        "t-sql",
+        "tsql",
+        "pl/sql",
+        "plsql"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK004",
+      "name": "Java",
+      "category": "Programming Languages",
+      "aliases": [
+        "java 8",
+        "java 11",
+        "java 17",
+        "core java"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK005",
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "aliases": [
+        "javascript",
+        "js",
+        "es6",
+        "ecmascript"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK006",
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK007",
+      "name": "Go",
+      "category": "Programming Languages",
+      "aliases": [
+        "Golang"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": true
+    },
+    {
+      "skill_id": "SK008",
+      "name": "C++",
+      "category": "Programming Languages",
+      "aliases": [
+        "cpp",
+        "c plus plus"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK009",
+      "name": "C",
+      "category": "Programming Languages",
+      "aliases": [
+        "C programming",
+        "ANSI C"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": true
+    },
+    {
+      "skill_id": "SK010",
+      "name": "Scala",
+      "category": "Programming Languages",
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK011",
+      "name": "Bash",
+      "category": "Programming Languages",
+      "aliases": [
+        "shell scripting",
+        "shell script",
+        "bash scripting",
+        "zsh"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK012",
+      "name": "Rust",
+      "category": "Programming Languages",
+      "aliases": [
+        "rustlang"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK013",
+      "name": "Kotlin",
+      "category": "Programming Languages",
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK014",
+      "name": "C#",
+      "category": "Programming Languages",
+      "aliases": [
+        "c sharp",
+        "csharp",
+        ".net",
+        "dotnet",
+        "asp.net"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK015",
+      "name": "PHP",
+      "category": "Programming Languages",
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK016",
+      "name": "Ruby",
+      "category": "Programming Languages",
+      "aliases": [
+        "ruby on rails",
+        "rails"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK017",
+      "name": "Statistics",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "statistical analysis",
+        "descriptive statistics",
+        "inferential statistics",
+        "applied statistics"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK018",
+      "name": "Probability",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "probability theory"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK019",
+      "name": "Linear Algebra",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "matrix algebra"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK020",
+      "name": "Calculus",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "multivariable calculus",
+        "differential calculus"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK021",
+      "name": "Hypothesis Testing",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "significance testing",
+        "t-test",
+        "chi-square test",
+        "statistical testing"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK022",
+      "name": "A/B Testing",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "ab testing",
+        "a/b tests",
+        "split testing",
+        "experimentation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK023",
+      "name": "Optimization",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "mathematical optimization",
+        "convex optimization",
+        "linear programming"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK024",
+      "name": "Time Series Analysis",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "time series",
+        "time-series",
+        "forecasting",
+        "arima",
+        "prophet"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK025",
+      "name": "Bayesian Statistics",
+      "category": "Mathematics & Statistics",
+      "aliases": [
+        "bayesian inference",
+        "bayesian methods",
+        "bayesian modeling"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK026",
+      "name": "Pandas",
+      "category": "Data Analysis",
+      "aliases": [
+        "pandas library",
+        "pandas dataframe"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK027",
+      "name": "NumPy",
+      "category": "Data Analysis",
+      "aliases": [
+        "numpy",
+        "numerical python"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK028",
+      "name": "Excel",
+      "category": "Data Analysis",
+      "aliases": [
+        "Microsoft Excel",
+        "MS Excel",
+        "excel spreadsheets",
+        "vlookup",
+        "pivot tables",
+        "advanced excel"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": true
+    },
+    {
+      "skill_id": "SK029",
+      "name": "Data Cleaning",
+      "category": "Data Analysis",
+      "aliases": [
+        "data cleansing",
+        "data preprocessing",
+        "data preparation",
+        "data quality"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK030",
+      "name": "Exploratory Data Analysis",
+      "category": "Data Analysis",
+      "aliases": [
+        "eda",
+        "exploratory analysis"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK031",
+      "name": "Data Wrangling",
+      "category": "Data Analysis",
+      "aliases": [
+        "data munging",
+        "data manipulation",
+        "data transformation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK032",
+      "name": "SciPy",
+      "category": "Data Analysis",
+      "aliases": [
+        "scipy"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK033",
+      "name": "Statsmodels",
+      "category": "Data Analysis",
+      "aliases": [
+        "statsmodels"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK034",
+      "name": "Tableau",
+      "category": "Data Visualization",
+      "aliases": [
+        "tableau desktop",
+        "tableau server"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK035",
+      "name": "Power BI",
+      "category": "Data Visualization",
+      "aliases": [
+        "powerbi",
+        "power-bi",
+        "microsoft power bi",
+        "dax",
+        "power query"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK036",
+      "name": "Matplotlib",
+      "category": "Data Visualization",
+      "aliases": [
+        "matplotlib",
+        "pyplot"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK037",
+      "name": "Seaborn",
+      "category": "Data Visualization",
+      "aliases": [
+        "seaborn"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK038",
+      "name": "Plotly",
+      "category": "Data Visualization",
+      "aliases": [
+        "plotly dash",
+        "plotly express"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK039",
+      "name": "Data Visualization",
+      "category": "Data Visualization",
+      "aliases": [
+        "data viz",
+        "dataviz",
+        "dashboards",
+        "dashboarding",
+        "data visualisation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK040",
+      "name": "Looker",
+      "category": "Data Visualization",
+      "aliases": [
+        "looker studio",
+        "google data studio",
+        "lookml"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK041",
+      "name": "D3.js",
+      "category": "Data Visualization",
+      "aliases": [
+        "d3",
+        "d3js"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK042",
+      "name": "Machine Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "ml",
+        "statistical learning",
+        "predictive modeling",
+        "predictive modelling"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK043",
+      "name": "Scikit-learn",
+      "category": "Machine Learning",
+      "aliases": [
+        "sklearn",
+        "scikit learn",
+        "scikit-learn",
+        "scikitlearn",
+        "sci-kit learn"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK044",
+      "name": "XGBoost",
+      "category": "Machine Learning",
+      "aliases": [
+        "xgboost",
+        "extreme gradient boosting",
+        "gradient boosting",
+        "gbm"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK045",
+      "name": "LightGBM",
+      "category": "Machine Learning",
+      "aliases": [
+        "lightgbm",
+        "light gbm",
+        "catboost"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK046",
+      "name": "Feature Engineering",
+      "category": "Machine Learning",
+      "aliases": [
+        "feature extraction",
+        "feature selection"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK047",
+      "name": "Model Evaluation",
+      "category": "Machine Learning",
+      "aliases": [
+        "cross-validation",
+        "cross validation",
+        "model validation",
+        "roc auc",
+        "evaluation metrics"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK048",
+      "name": "Supervised Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "supervised machine learning"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK049",
+      "name": "Unsupervised Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "unsupervised machine learning",
+        "dimensionality reduction",
+        "pca"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK050",
+      "name": "Regression",
+      "category": "Machine Learning",
+      "aliases": [
+        "linear regression",
+        "logistic regression",
+        "regression analysis"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK051",
+      "name": "Classification",
+      "category": "Machine Learning",
+      "aliases": [
+        "classification models",
+        "classifiers",
+        "random forest",
+        "decision trees"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK052",
+      "name": "Clustering",
+      "category": "Machine Learning",
+      "aliases": [
+        "k-means",
+        "kmeans",
+        "dbscan",
+        "hierarchical clustering"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK053",
+      "name": "Recommender Systems",
+      "category": "Machine Learning",
+      "aliases": [
+        "recommendation systems",
+        "recommendation engine",
+        "collaborative filtering"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK054",
+      "name": "Reinforcement Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "q-learning",
+        "deep reinforcement learning"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK055",
+      "name": "Hyperparameter Tuning",
+      "category": "Machine Learning",
+      "aliases": [
+        "hyperparameter optimization",
+        "grid search",
+        "optuna",
+        "hyperopt"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK056",
+      "name": "Deep Learning",
+      "category": "Deep Learning",
+      "aliases": [
+        "deep neural networks"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK057",
+      "name": "TensorFlow",
+      "category": "Deep Learning",
+      "aliases": [
+        "tensorflow",
+        "tf2",
+        "tensorflow 2"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK058",
+      "name": "PyTorch",
+      "category": "Deep Learning",
+      "aliases": [
+        "pytorch",
+        "torch",
+        "pytorch lightning"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK059",
+      "name": "Keras",
+      "category": "Deep Learning",
+      "aliases": [
+        "keras"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK060",
+      "name": "Neural Networks",
+      "category": "Deep Learning",
+      "aliases": [
+        "neural network",
+        "artificial neural networks",
+        "mlp",
+        "backpropagation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK061",
+      "name": "CNN",
+      "category": "Deep Learning",
+      "aliases": [
+        "convolutional neural networks",
+        "convolutional neural network",
+        "cnns"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK062",
+      "name": "RNN",
+      "category": "Deep Learning",
+      "aliases": [
+        "recurrent neural networks",
+        "recurrent neural network",
+        "lstm",
+        "gru"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK063",
+      "name": "Transformers",
+      "category": "Deep Learning",
+      "aliases": [
+        "transformer models",
+        "transformer architecture",
+        "attention mechanism",
+        "self-attention"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK064",
+      "name": "JAX",
+      "category": "Deep Learning",
+      "aliases": [
+        "jax",
+        "flax"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK065",
+      "name": "Natural Language Processing",
+      "category": "NLP",
+      "aliases": [
+        "nlp",
+        "natural language understanding",
+        "nlu",
+        "computational linguistics",
+        "text mining"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK066",
+      "name": "spaCy",
+      "category": "NLP",
+      "aliases": [
+        "spacy"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK067",
+      "name": "NLTK",
+      "category": "NLP",
+      "aliases": [
+        "nltk",
+        "natural language toolkit"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK068",
+      "name": "Hugging Face",
+      "category": "NLP",
+      "aliases": [
+        "huggingface",
+        "hugging face transformers",
+        "hf transformers",
+        "hugging face hub"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK069",
+      "name": "Text Classification",
+      "category": "NLP",
+      "aliases": [
+        "document classification",
+        "text categorization",
+        "intent classification"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK070",
+      "name": "Named Entity Recognition",
+      "category": "NLP",
+      "aliases": [
+        "entity extraction",
+        "information extraction"
+      ],
+      "case_sensitive_aliases": [
+        "NER"
+      ],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK071",
+      "name": "Sentiment Analysis",
+      "category": "NLP",
+      "aliases": [
+        "opinion mining",
+        "sentiment classification"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK072",
+      "name": "Word Embeddings",
+      "category": "NLP",
+      "aliases": [
+        "word2vec",
+        "glove",
+        "fasttext",
+        "word vectors"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK073",
+      "name": "BERT",
+      "category": "NLP",
+      "aliases": [
+        "bert",
+        "roberta",
+        "distilbert"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK074",
+      "name": "Tokenization",
+      "category": "NLP",
+      "aliases": [
+        "tokenizers",
+        "text tokenization",
+        "byte pair encoding",
+        "bpe"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK075",
+      "name": "Computer Vision",
+      "category": "Computer Vision",
+      "aliases": [
+        "machine vision",
+        "visual recognition"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK076",
+      "name": "OpenCV",
+      "category": "Computer Vision",
+      "aliases": [
+        "opencv",
+        "cv2",
+        "open cv"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK077",
+      "name": "Image Classification",
+      "category": "Computer Vision",
+      "aliases": [
+        "image recognition"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK078",
+      "name": "Object Detection",
+      "category": "Computer Vision",
+      "aliases": [
+        "object tracking",
+        "faster r-cnn",
+        "ssd detector"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK079",
+      "name": "Image Segmentation",
+      "category": "Computer Vision",
+      "aliases": [
+        "semantic segmentation",
+        "instance segmentation",
+        "u-net",
+        "unet",
+        "mask r-cnn"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK080",
+      "name": "YOLO",
+      "category": "Computer Vision",
+      "aliases": [
+        "yolov5",
+        "yolov8",
+        "yolo v8",
+        "ultralytics"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK081",
+      "name": "Image Processing",
+      "category": "Computer Vision",
+      "aliases": [
+        "digital image processing",
+        "image preprocessing",
+        "pillow"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK082",
+      "name": "Generative AI",
+      "category": "Generative AI",
+      "aliases": [
+        "genai",
+        "gen ai",
+        "generative models",
+        "generative artificial intelligence"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK083",
+      "name": "Large Language Models",
+      "category": "Generative AI",
+      "aliases": [
+        "llms",
+        "llm",
+        "large language model",
+        "gpt-4",
+        "gpt4",
+        "llama",
+        "claude",
+        "gemini",
+        "mistral"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK084",
+      "name": "Prompt Engineering",
+      "category": "Generative AI",
+      "aliases": [
+        "prompt design",
+        "prompting",
+        "few-shot prompting",
+        "chain-of-thought"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK085",
+      "name": "LangChain",
+      "category": "Generative AI",
+      "aliases": [
+        "langchain",
+        "langgraph",
+        "langsmith"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK086",
+      "name": "Retrieval-Augmented Generation",
+      "category": "Generative AI",
+      "aliases": [
+        "retrieval augmented generation",
+        "rag pipelines",
+        "rag pipeline"
+      ],
+      "case_sensitive_aliases": [
+        "RAG"
+      ],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK087",
+      "name": "Vector Databases",
+      "category": "Generative AI",
+      "aliases": [
+        "vector database",
+        "vector db",
+        "vector store",
+        "pinecone",
+        "chromadb",
+        "chroma",
+        "weaviate",
+        "faiss",
+        "milvus",
+        "qdrant",
+        "pgvector"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK088",
+      "name": "Fine-tuning LLMs",
+      "category": "Generative AI",
+      "aliases": [
+        "fine-tuning",
+        "fine tuning",
+        "llm fine-tuning",
+        "lora",
+        "qlora",
+        "peft",
+        "rlhf",
+        "instruction tuning"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK089",
+      "name": "OpenAI API",
+      "category": "Generative AI",
+      "aliases": [
+        "openai",
+        "openai api",
+        "chatgpt api",
+        "gpt api",
+        "anthropic api",
+        "llm apis"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK090",
+      "name": "LlamaIndex",
+      "category": "Generative AI",
+      "aliases": [
+        "llamaindex",
+        "llama index",
+        "llama-index"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK091",
+      "name": "Embeddings",
+      "category": "Generative AI",
+      "aliases": [
+        "text embeddings",
+        "sentence embeddings",
+        "sentence transformers",
+        "sentence-transformers",
+        "semantic search"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK092",
+      "name": "Diffusion Models",
+      "category": "Generative AI",
+      "aliases": [
+        "stable diffusion",
+        "diffusion model",
+        "dall-e",
+        "image generation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK093",
+      "name": "AI Agents",
+      "category": "Generative AI",
+      "aliases": [
+        "llm agents",
+        "agentic ai",
+        "autonomous agents",
+        "multi-agent systems",
+        "tool calling",
+        "function calling"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK094",
+      "name": "LLM Evaluation",
+      "category": "Generative AI",
+      "aliases": [
+        "llm evals",
+        "llm evaluation",
+        "ragas",
+        "model evals"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK095",
+      "name": "Data Engineering",
+      "category": "Data Engineering",
+      "aliases": [
+        "data platform engineering"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK096",
+      "name": "ETL",
+      "category": "Data Engineering",
+      "aliases": [
+        "etl",
+        "elt",
+        "extract transform load",
+        "etl pipelines"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK097",
+      "name": "Apache Spark",
+      "category": "Data Engineering",
+      "aliases": [
+        "spark",
+        "spark sql",
+        "spark streaming"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK098",
+      "name": "PySpark",
+      "category": "Data Engineering",
+      "aliases": [
+        "pyspark"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK099",
+      "name": "Apache Kafka",
+      "category": "Data Engineering",
+      "aliases": [
+        "kafka",
+        "kafka streams",
+        "confluent"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK100",
+      "name": "Apache Airflow",
+      "category": "Data Engineering",
+      "aliases": [
+        "airflow",
+        "dags",
+        "workflow orchestration"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK101",
+      "name": "dbt",
+      "category": "Data Engineering",
+      "aliases": [
+        "data build tool",
+        "dbt core",
+        "dbt cloud"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK102",
+      "name": "Data Warehousing",
+      "category": "Data Engineering",
+      "aliases": [
+        "data warehouse",
+        "data warehouses",
+        "dwh",
+        "data lake",
+        "lakehouse",
+        "redshift"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK103",
+      "name": "Hadoop",
+      "category": "Data Engineering",
+      "aliases": [
+        "hdfs",
+        "mapreduce",
+        "hive",
+        "apache hive"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK104",
+      "name": "Data Modeling",
+      "category": "Data Engineering",
+      "aliases": [
+        "data modelling",
+        "dimensional modeling",
+        "star schema",
+        "schema design",
+        "kimball"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK105",
+      "name": "Snowflake",
+      "category": "Data Engineering",
+      "aliases": [
+        "snowflake"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK106",
+      "name": "Databricks",
+      "category": "Data Engineering",
+      "aliases": [
+        "databricks",
+        "delta lake"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK107",
+      "name": "BigQuery",
+      "category": "Data Engineering",
+      "aliases": [
+        "google bigquery"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK108",
+      "name": "Data Pipelines",
+      "category": "Data Engineering",
+      "aliases": [
+        "data pipeline",
+        "pipeline development",
+        "batch processing",
+        "stream processing"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK109",
+      "name": "Apache Flink",
+      "category": "Data Engineering",
+      "aliases": [
+        "flink"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK110",
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "aliases": [
+        "postgres",
+        "postgresql",
+        "psql"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK111",
+      "name": "MySQL",
+      "category": "Databases",
+      "aliases": [
+        "mysql",
+        "mariadb"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK112",
+      "name": "MongoDB",
+      "category": "Databases",
+      "aliases": [
+        "mongo",
+        "mongodb",
+        "mongoose"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK113",
+      "name": "Redis",
+      "category": "Databases",
+      "aliases": [
+        "redis",
+        "redis cache"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK114",
+      "name": "SQLite",
+      "category": "Databases",
+      "aliases": [
+        "sqlite3"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK115",
+      "name": "NoSQL",
+      "category": "Databases",
+      "aliases": [
+        "nosql",
+        "document databases",
+        "key-value stores"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK116",
+      "name": "Elasticsearch",
+      "category": "Databases",
+      "aliases": [
+        "elastic search",
+        "elk stack",
+        "opensearch",
+        "kibana"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK117",
+      "name": "Cassandra",
+      "category": "Databases",
+      "aliases": [
+        "apache cassandra",
+        "dynamodb"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK118",
+      "name": "Database Design",
+      "category": "Databases",
+      "aliases": [
+        "database administration",
+        "dba",
+        "query optimization",
+        "database indexing",
+        "database normalization"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK119",
+      "name": "Caching",
+      "category": "Databases",
+      "aliases": [
+        "memcached",
+        "cdn caching",
+        "caching strategies"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK120",
+      "name": "AWS",
+      "category": "Cloud",
+      "aliases": [
+        "amazon web services",
+        "aws cloud",
+        "ec2",
+        "amazon ec2"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK121",
+      "name": "Azure",
+      "category": "Cloud",
+      "aliases": [
+        "microsoft azure",
+        "azure cloud"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK122",
+      "name": "Google Cloud Platform",
+      "category": "Cloud",
+      "aliases": [
+        "gcp",
+        "google cloud"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK123",
+      "name": "AWS SageMaker",
+      "category": "Cloud",
+      "aliases": [
+        "sagemaker",
+        "amazon sagemaker"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK124",
+      "name": "AWS Lambda",
+      "category": "Cloud",
+      "aliases": [
+        "aws lambda",
+        "lambda functions"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK125",
+      "name": "Amazon S3",
+      "category": "Cloud",
+      "aliases": [
+        "s3",
+        "aws s3",
+        "s3 buckets"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK126",
+      "name": "Cloud Computing",
+      "category": "Cloud",
+      "aliases": [
+        "cloud platforms",
+        "cloud infrastructure",
+        "cloud services",
+        "cloud architecture"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK127",
+      "name": "Serverless",
+      "category": "Cloud",
+      "aliases": [
+        "serverless architecture",
+        "cloud functions",
+        "azure functions"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK128",
+      "name": "Azure ML",
+      "category": "Cloud",
+      "aliases": [
+        "azure machine learning",
+        "azureml"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK129",
+      "name": "Vertex AI",
+      "category": "Cloud",
+      "aliases": [
+        "google vertex ai",
+        "vertexai"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK130",
+      "name": "Docker",
+      "category": "DevOps",
+      "aliases": [
+        "docker",
+        "containerization",
+        "containers",
+        "dockerfile",
+        "docker compose",
+        "docker-compose"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK131",
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "aliases": [
+        "k8s",
+        "kubectl",
+        "eks",
+        "aks",
+        "gke",
+        "openshift"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK132",
+      "name": "CI/CD",
+      "category": "DevOps",
+      "aliases": [
+        "ci/cd",
+        "ci cd",
+        "continuous integration",
+        "continuous delivery",
+        "continuous deployment"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK133",
+      "name": "Git",
+      "category": "DevOps",
+      "aliases": [
+        "git",
+        "github",
+        "gitlab",
+        "bitbucket",
+        "version control"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK134",
+      "name": "Linux",
+      "category": "DevOps",
+      "aliases": [
+        "linux",
+        "unix",
+        "ubuntu",
+        "centos",
+        "red hat",
+        "rhel"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK135",
+      "name": "Terraform",
+      "category": "DevOps",
+      "aliases": [
+        "terraform",
+        "terragrunt"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK136",
+      "name": "Jenkins",
+      "category": "DevOps",
+      "aliases": [
+        "jenkins pipelines"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK137",
+      "name": "GitHub Actions",
+      "category": "DevOps",
+      "aliases": [
+        "github actions",
+        "gh actions"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK138",
+      "name": "Ansible",
+      "category": "DevOps",
+      "aliases": [
+        "ansible playbooks",
+        "configuration management",
+        "puppet",
+        "chef"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK139",
+      "name": "Prometheus",
+      "category": "DevOps",
+      "aliases": [
+        "prometheus",
+        "promql"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK140",
+      "name": "Grafana",
+      "category": "DevOps",
+      "aliases": [
+        "grafana dashboards"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK141",
+      "name": "Helm",
+      "category": "DevOps",
+      "aliases": [
+        "helm charts"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK142",
+      "name": "Infrastructure as Code",
+      "category": "DevOps",
+      "aliases": [
+        "iac",
+        "cloudformation",
+        "pulumi"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK143",
+      "name": "Monitoring",
+      "category": "DevOps",
+      "aliases": [
+        "observability",
+        "system monitoring",
+        "logging",
+        "alerting",
+        "datadog",
+        "new relic"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK144",
+      "name": "Networking",
+      "category": "DevOps",
+      "aliases": [
+        "computer networking",
+        "tcp/ip",
+        "dns",
+        "load balancing",
+        "vpc",
+        "subnetting"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK145",
+      "name": "MLOps",
+      "category": "MLOps",
+      "aliases": [
+        "ml ops",
+        "machine learning operations",
+        "ml engineering",
+        "ml pipelines"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK146",
+      "name": "MLflow",
+      "category": "MLOps",
+      "aliases": [
+        "mlflow"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK147",
+      "name": "Model Deployment",
+      "category": "MLOps",
+      "aliases": [
+        "deploying models",
+        "ml deployment",
+        "model productionization",
+        "productionizing models"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK148",
+      "name": "Model Monitoring",
+      "category": "MLOps",
+      "aliases": [
+        "ml monitoring",
+        "data drift",
+        "model drift",
+        "drift detection"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK149",
+      "name": "Kubeflow",
+      "category": "MLOps",
+      "aliases": [
+        "kubeflow pipelines"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK150",
+      "name": "Feature Store",
+      "category": "MLOps",
+      "aliases": [
+        "feast",
+        "feature stores"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK151",
+      "name": "DVC",
+      "category": "MLOps",
+      "aliases": [
+        "data version control",
+        "dvc"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK152",
+      "name": "Model Serving",
+      "category": "MLOps",
+      "aliases": [
+        "torchserve",
+        "tensorflow serving",
+        "triton inference server",
+        "bentoml",
+        "seldon",
+        "vllm",
+        "onnx"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK153",
+      "name": "Experiment Tracking",
+      "category": "MLOps",
+      "aliases": [
+        "weights & biases",
+        "weights and biases",
+        "wandb",
+        "neptune.ai",
+        "comet ml"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK154",
+      "name": "REST APIs",
+      "category": "Backend Development",
+      "aliases": [
+        "rest api",
+        "rest apis",
+        "restful apis",
+        "restful api",
+        "restful services",
+        "api development",
+        "web apis"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK155",
+      "name": "HTTP Basics",
+      "category": "Backend Development",
+      "aliases": [
+        "http/https",
+        "http protocol",
+        "web protocols"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK156",
+      "name": "FastAPI",
+      "category": "Backend Development",
+      "aliases": [
+        "fastapi",
+        "fast api"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK157",
+      "name": "Django",
+      "category": "Backend Development",
+      "aliases": [
+        "django rest framework",
+        "drf"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK158",
+      "name": "Flask",
+      "category": "Backend Development",
+      "aliases": [
+        "flask"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK159",
+      "name": "Node.js",
+      "category": "Backend Development",
+      "aliases": [
+        "nodejs",
+        "node js"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK160",
+      "name": "Express.js",
+      "category": "Backend Development",
+      "aliases": [
+        "expressjs",
+        "express js"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK161",
+      "name": "Spring Boot",
+      "category": "Backend Development",
+      "aliases": [
+        "spring framework",
+        "spring mvc",
+        "spring cloud"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK162",
+      "name": "GraphQL",
+      "category": "Backend Development",
+      "aliases": [
+        "graphql",
+        "apollo"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK163",
+      "name": "Microservices",
+      "category": "Backend Development",
+      "aliases": [
+        "microservice architecture",
+        "microservices architecture",
+        "service-oriented architecture",
+        "soa"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK164",
+      "name": "System Design",
+      "category": "Backend Development",
+      "aliases": [
+        "distributed systems",
+        "scalable systems",
+        "software architecture",
+        "high-level design"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK165",
+      "name": "Authentication",
+      "category": "Backend Development",
+      "aliases": [
+        "oauth",
+        "oauth2",
+        "jwt",
+        "authorization",
+        "sso",
+        "openid connect"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK166",
+      "name": "API Design",
+      "category": "Backend Development",
+      "aliases": [
+        "openapi",
+        "swagger",
+        "api documentation"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK167",
+      "name": "gRPC",
+      "category": "Backend Development",
+      "aliases": [
+        "grpc",
+        "protocol buffers",
+        "protobuf"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK168",
+      "name": "Unit Testing",
+      "category": "Backend Development",
+      "aliases": [
+        "pytest",
+        "junit",
+        "jest",
+        "unittest",
+        "test-driven development",
+        "tdd",
+        "automated testing"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK169",
+      "name": "Object-Oriented Programming",
+      "category": "Backend Development",
+      "aliases": [
+        "oop",
+        "object oriented programming",
+        "object-oriented design"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK170",
+      "name": "Data Structures",
+      "category": "Backend Development",
+      "aliases": [
+        "data structures and algorithms",
+        "dsa"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK171",
+      "name": "Algorithms",
+      "category": "Backend Development",
+      "aliases": [
+        "algorithm design",
+        "algorithmic problem solving"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK172",
+      "name": "Message Queues",
+      "category": "Backend Development",
+      "aliases": [
+        "rabbitmq",
+        "amazon sqs",
+        "sqs",
+        "celery",
+        "pub/sub",
+        "message brokers"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK173",
+      "name": "HTML",
+      "category": "Frontend Development",
+      "aliases": [
+        "html5"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK174",
+      "name": "CSS",
+      "category": "Frontend Development",
+      "aliases": [
+        "css3",
+        "sass",
+        "scss"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK175",
+      "name": "React",
+      "category": "Frontend Development",
+      "aliases": [
+        "react.js",
+        "reactjs",
+        "react js",
+        "react hooks"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK176",
+      "name": "Vue.js",
+      "category": "Frontend Development",
+      "aliases": [
+        "vue",
+        "vuejs",
+        "vue 3",
+        "nuxt"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK177",
+      "name": "Angular",
+      "category": "Frontend Development",
+      "aliases": [
+        "angularjs",
+        "angular 2+"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK178",
+      "name": "Next.js",
+      "category": "Frontend Development",
+      "aliases": [
+        "nextjs",
+        "next js"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK179",
+      "name": "Tailwind CSS",
+      "category": "Frontend Development",
+      "aliases": [
+        "tailwind",
+        "tailwindcss"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK180",
+      "name": "Redux",
+      "category": "Frontend Development",
+      "aliases": [
+        "redux toolkit",
+        "zustand",
+        "state management"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK181",
+      "name": "Responsive Design",
+      "category": "Frontend Development",
+      "aliases": [
+        "responsive web design",
+        "mobile-first design",
+        "cross-browser compatibility"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK182",
+      "name": "Webpack",
+      "category": "Frontend Development",
+      "aliases": [
+        "webpack",
+        "vite",
+        "babel",
+        "bundlers"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK183",
+      "name": "Cybersecurity",
+      "category": "Cybersecurity",
+      "aliases": [
+        "cyber security",
+        "information security",
+        "infosec",
+        "it security"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK184",
+      "name": "Network Security",
+      "category": "Cybersecurity",
+      "aliases": [
+        "network defense",
+        "intrusion detection",
+        "ids/ips"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK185",
+      "name": "Penetration Testing",
+      "category": "Cybersecurity",
+      "aliases": [
+        "pentesting",
+        "pen testing",
+        "penetration tests",
+        "metasploit",
+        "burp suite",
+        "red teaming"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK186",
+      "name": "SIEM",
+      "category": "Cybersecurity",
+      "aliases": [
+        "siem",
+        "security information and event management",
+        "qradar",
+        "microsoft sentinel",
+        "arcsight"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK187",
+      "name": "Incident Response",
+      "category": "Cybersecurity",
+      "aliases": [
+        "incident handling",
+        "security operations",
+        "soc analyst",
+        "digital forensics",
+        "dfir"
+      ],
+      "case_sensitive_aliases": [
+        "SOC"
+      ],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK188",
+      "name": "Vulnerability Assessment",
+      "category": "Cybersecurity",
+      "aliases": [
+        "vulnerability management",
+        "vulnerability scanning",
+        "nessus",
+        "qualys",
+        "openvas"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK189",
+      "name": "Threat Intelligence",
+      "category": "Cybersecurity",
+      "aliases": [
+        "threat hunting",
+        "threat analysis",
+        "mitre att&ck",
+        "mitre attack",
+        "cyber threat intelligence"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK190",
+      "name": "Wireshark",
+      "category": "Cybersecurity",
+      "aliases": [
+        "wireshark",
+        "packet analysis",
+        "tcpdump"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK191",
+      "name": "Firewalls",
+      "category": "Cybersecurity",
+      "aliases": [
+        "firewall",
+        "firewall configuration",
+        "palo alto",
+        "fortinet",
+        "waf"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK192",
+      "name": "Cryptography",
+      "category": "Cybersecurity",
+      "aliases": [
+        "encryption",
+        "pki",
+        "tls/ssl",
+        "ssl/tls",
+        "public key infrastructure"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 3,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK193",
+      "name": "Security Compliance",
+      "category": "Cybersecurity",
+      "aliases": [
+        "iso 27001",
+        "nist",
+        "soc 2",
+        "gdpr",
+        "hipaa",
+        "pci dss",
+        "risk assessment",
+        "grc"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK194",
+      "name": "Identity and Access Management",
+      "category": "Cybersecurity",
+      "aliases": [
+        "iam",
+        "access management",
+        "active directory",
+        "okta",
+        "rbac"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK195",
+      "name": "Splunk",
+      "category": "Cybersecurity",
+      "aliases": [
+        "splunk",
+        "splunk enterprise"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK196",
+      "name": "Ethical Hacking",
+      "category": "Cybersecurity",
+      "aliases": [
+        "ethical hacker",
+        "kali linux",
+        "capture the flag",
+        "ctf"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK197",
+      "name": "OWASP",
+      "category": "Cybersecurity",
+      "aliases": [
+        "owasp top 10",
+        "web application security",
+        "appsec",
+        "application security"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK198",
+      "name": "Business Analysis",
+      "category": "Business & Product",
+      "aliases": [
+        "business analytics",
+        "business process analysis",
+        "gap analysis"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK199",
+      "name": "Requirements Gathering",
+      "category": "Business & Product",
+      "aliases": [
+        "requirements elicitation",
+        "requirements analysis",
+        "brd",
+        "user stories",
+        "functional specifications"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK200",
+      "name": "Stakeholder Management",
+      "category": "Business & Product",
+      "aliases": [
+        "stakeholder engagement",
+        "stakeholder communication",
+        "client management"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK201",
+      "name": "Agile",
+      "category": "Business & Product",
+      "aliases": [
+        "agile methodology",
+        "agile methodologies",
+        "kanban",
+        "agile development"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK202",
+      "name": "Scrum",
+      "category": "Business & Product",
+      "aliases": [
+        "scrum master",
+        "sprint planning",
+        "scrum methodology"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK203",
+      "name": "JIRA",
+      "category": "Business & Product",
+      "aliases": [
+        "jira",
+        "confluence",
+        "atlassian"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK204",
+      "name": "Process Modeling",
+      "category": "Business & Product",
+      "aliases": [
+        "bpmn",
+        "process mapping",
+        "workflow analysis",
+        "business process modeling",
+        "visio"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK205",
+      "name": "Business Intelligence",
+      "category": "Business & Product",
+      "aliases": [
+        "bi reporting",
+        "bi tools"
+      ],
+      "case_sensitive_aliases": [
+        "BI"
+      ],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK206",
+      "name": "KPI Reporting",
+      "category": "Business & Product",
+      "aliases": [
+        "kpi",
+        "kpis",
+        "metrics reporting",
+        "business metrics",
+        "kpi dashboards"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK207",
+      "name": "Product Management",
+      "category": "Business & Product",
+      "aliases": [
+        "product roadmap",
+        "product strategy",
+        "product owner"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK208",
+      "name": "Data Storytelling",
+      "category": "Business & Product",
+      "aliases": [
+        "storytelling with data",
+        "insight communication",
+        "executive presentations"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK209",
+      "name": "UML",
+      "category": "Business & Product",
+      "aliases": [
+        "uml diagrams",
+        "use case diagrams",
+        "sequence diagrams"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK210",
+      "name": "Communication",
+      "category": "Soft Skills",
+      "aliases": [
+        "communication skills",
+        "verbal communication",
+        "written communication"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK211",
+      "name": "Teamwork",
+      "category": "Soft Skills",
+      "aliases": [
+        "team player",
+        "team work"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK212",
+      "name": "Leadership",
+      "category": "Soft Skills",
+      "aliases": [
+        "team leadership",
+        "people management",
+        "team lead"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 2,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK213",
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "aliases": [
+        "problem-solving",
+        "analytical skills",
+        "troubleshooting"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 3,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK214",
+      "name": "Critical Thinking",
+      "category": "Soft Skills",
+      "aliases": [
+        "analytical thinking"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK215",
+      "name": "Time Management",
+      "category": "Soft Skills",
+      "aliases": [
+        "prioritization",
+        "organizational skills"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK216",
+      "name": "Presentation Skills",
+      "category": "Soft Skills",
+      "aliases": [
+        "public speaking",
+        "presenting"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK217",
+      "name": "Collaboration",
+      "category": "Soft Skills",
+      "aliases": [
+        "cross-functional collaboration",
+        "cross-functional teams"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 2,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK218",
+      "name": "Adaptability",
+      "category": "Soft Skills",
+      "aliases": [
+        "flexibility",
+        "fast learner",
+        "quick learner"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    },
+    {
+      "skill_id": "SK219",
+      "name": "Mentoring",
+      "category": "Soft Skills",
+      "aliases": [
+        "coaching",
+        "mentorship"
+      ],
+      "case_sensitive_aliases": [],
+      "importance": 1,
+      "difficulty": 1,
+      "ambiguous": false
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "trained_at": "2026-09-25T03:22:54+00:00",
+  "dataset": "data/resume_dataset.csv",
+  "synthetic_data": true,
+  "n_samples": 3492,
+  "n_classes": 22,
+  "n_features": 281,
+  "split": {
+    "train": 2444,
+    "validation": 524,
+    "test": 524
+  },
+  "selection_metric": "validation macro-F1",
+  "selected_model": "LogisticRegression",
+  "models": {
+    "LogisticRegression": {
+      "best_params": {
+        "C": 0.05
+      },
+      "validation": {
+        "accuracy": 0.9752,
+        "precision_macro": 0.9749,
+        "recall_macro": 0.975,
+        "f1_macro": 0.9746,
+        "top3_accuracy": 1.0
+      },
+      "test": {
+        "accuracy": 0.9866,
+        "precision_macro": 0.9871,
+        "recall_macro": 0.9867,
+        "f1_macro": 0.9867,
+        "top3_accuracy": 1.0
+      },
+      "train_seconds": 0.1
+    },
+    "RandomForest": {
+      "best_params": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      },
+      "validation": {
+        "accuracy": 0.9618,
+        "precision_macro": 0.9634,
+        "recall_macro": 0.9624,
+        "f1_macro": 0.9624,
+        "top3_accuracy": 1.0
+      },
+      "test": {
+        "accuracy": 0.9771,
+        "precision_macro": 0.9781,
+        "recall_macro": 0.977,
+        "f1_macro": 0.977,
+        "top3_accuracy": 1.0
+      },
+      "train_seconds": 0.61
+    },
+    "XGBoost": {
+      "best_params": {
+        "n_estimators": 350,
+        "max_depth": 6,
+        "learning_rate": 0.08
+      },
+      "validation": {
+        "accuracy": 0.9618,
+        "precision_macro": 0.9631,
+        "recall_macro": 0.9618,
+        "f1_macro": 0.9621,
+        "top3_accuracy": 0.9981
+      },
+      "test": {
+        "accuracy": 0.9752,
+        "precision_macro": 0.9767,
+        "recall_macro": 0.9748,
+        "f1_macro": 0.9751,
+        "top3_accuracy": 1.0
+      },
+      "train_seconds": 4.66
+    }
+  },
+  "per_class": {
+    "AI Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Analytics Engineer": {
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9787234042553191,
+      "support": 24.0
+    },
+    "BI Developer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "Backend Developer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Business Analyst": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "Cloud Engineer": {
+      "precision": 1.0,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.9767441860465116,
+      "support": 22.0
+    },
+    "Computer Vision Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Cybersecurity Analyst": {
+      "precision": 0.9545454545454546,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.9333333333333333,
+      "support": 23.0
+    },
+    "Data Analyst": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "Data Engineer": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1-score": 0.9795918367346939,
+      "support": 24.0
+    },
+    "Data Scientist": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Database Administrator": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "DevOps Engineer": {
+      "precision": 0.9583333333333334,
+      "recall": 0.92,
+      "f1-score": 0.9387755102040817,
+      "support": 25.0
+    },
+    "Frontend Developer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Full Stack Developer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "GenAI Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 22.0
+    },
+    "ML Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 22.0
+    },
+    "MLOps Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "NLP Engineer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Research Scientist": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 22.0
+    },
+    "Security Engineer": {
+      "precision": 0.9259259259259259,
+      "recall": 0.9615384615384616,
+      "f1-score": 0.9433962264150944,
+      "support": 26.0
+    },
+    "Site Reliability Engineer": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 22.0
+    }
+  },
+  "nlp_pipeline": {
+    "skill_extraction_precision": 0.9993,
+    "skill_extraction_recall": 1.0,
+    "skill_extraction_f1": 0.9996,
+    "experience_years_mae": 0.0,
+    "n_resumes": 3492,
+    "note": "Measured on synthetic resumes whose vocabulary comes from the same taxonomy; real resumes will score lower."
+  }
+}

@@ -1,0 +1,23 @@
+,AI Engineer,Analytics Engineer,BI Developer,Backend Developer,Business Analyst,Cloud Engineer,Computer Vision Engineer,Cybersecurity Analyst,Data Analyst,Data Engineer,Data Scientist,Database Administrator,DevOps Engineer,Frontend Developer,Full Stack Developer,GenAI Engineer,ML Engineer,MLOps Engineer,NLP Engineer,Research Scientist,Security Engineer,Site Reliability Engineer
+AI Engineer,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Analytics Engineer,0,23,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+BI Developer,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Backend Developer,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Business Analyst,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cloud Engineer,0,0,0,0,0,21,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Computer Vision Engineer,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cybersecurity Analyst,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+Data Analyst,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0
+Data Engineer,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0
+Data Scientist,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0
+Database Administrator,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0
+DevOps Engineer,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,2
+Frontend Developer,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0
+Full Stack Developer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0
+GenAI Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0
+ML Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0
+MLOps Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0
+NLP Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0
+Research Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0
+Security Engineer,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,25,0
+Site Reliability Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
