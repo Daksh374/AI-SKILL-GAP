@@ -11,8 +11,6 @@ RUN pip install -r backend/requirements.txt && python -m spacy download en_core_
 
 COPY backend backend
 COPY data data
-COPY tests tests
-COPY pytest.ini .
 
 # Train the career model from the CSV datasets at build time so the image is self-contained.
 RUN python -m backend.app.ml.train && mkdir -p /app/db
