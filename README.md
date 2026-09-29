@@ -52,7 +52,6 @@ backend/app/
 frontend/           React app (6 pages)
 data/               synthetic CSV/JSON datasets (see data/README.md)
 models/             career_model.joblib, evaluation_report.{md,json}, confusion_matrix.csv
-tests/              pytest suite (NLP, skill gap, roadmap, Tavily client, API)
 ```
 
 ## Datasets (`data/`, all synthetic)
@@ -118,11 +117,6 @@ docker compose up --build
 ```
 The backend image installs dependencies, downloads the spaCy model and trains the career model from the
 CSVs during the build.
-
-### Tests
-```bash
-.venv/bin/python -m pytest
-```
 
 ### Adding Tavily later
 Put your key in `.env` (`TAVILY_API_KEY=tvly-...`) and restart the backend. Until then, Market Intelligence
