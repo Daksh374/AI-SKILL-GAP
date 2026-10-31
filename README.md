@@ -231,26 +231,3 @@ YouTube/Coursera resources. Progress is stored per stage.
 
 ---
 
-## Interview notes
-
-**ML methodology.** "I framed career ranking as multi-class classification over 22 roles. Features come
-from the NLP output: skill presence, category counts, experience, education and certifications. I also added
-prototype-similarity features built from a separate job-description corpus, which acts like a nearest-centroid
-prior. I compared Logistic Regression, Random Forest and XGBoost on a stratified train/validation/test split,
-tuned each on validation macro-F1 (macro, so every role counts equally), and reported all three on a held-out
-test set with a confusion matrix. The data is synthetic, so the model learns the generator's patterns. That's
-why every probability sits next to a transparent match score and an occlusion-based explanation, rather than
-being presented as a hiring prediction."
-
-**NLP pipeline.** "It's deterministic and fast, with no LLM. After parsing and cleaning, heading rules split
-the resume into sections. Skill extraction is a single longest-first regex over about 1,000 taxonomy surface
-forms, normalized to canonical names. Context rules handle ambiguity: 'R' or 'Go' only count inside a Skills
-section, and degree fields and group labels are masked. spaCy NER supports confidence and flags unknown
-technologies without inventing skills. Confidence is an explainable heuristic, and I evaluated extraction
-against the dataset's ground truth, knowing the synthetic score is optimistic."
-
-**Tavily integration.** "All web access goes through one server-side client with retries, backoff, a
-rate-limit-aware semaphore, a SQLite response cache and URL de-duplication, so the key never reaches the
-browser. I kept provenance on everything: URL, snippet and retrieval time. The UI puts sourced facts and
-Tavily's AI summary in visibly separate panels. Domain-restricted queries replace the YouTube Data API, and
-I only show fields that Tavily actually returns. When search fails or returns nothing, the app says so."
